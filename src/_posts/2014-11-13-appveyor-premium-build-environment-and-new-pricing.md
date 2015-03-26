@@ -35,13 +35,13 @@ title: AppVeyor premium build environment and new pricing
     Also, we introduce yearly pricing for "Pro" and "Premium" plans giving you <strong>2 months free</strong>!
 </p>
 
-<table style="width:70%;max-width:1042px;margin: 2rem auto;text-align:center;font-size: 100%;font-size:90%;" cellpadding="8" cellspacing="0" class="no-borders">
+<table style="width:70%;max-width:1042px;margin: 2rem auto;" class="no-borders centered pricing-post-table">
     <tr>
-        <td style="width: 33%; background-color: #25AAE3; color: #fff; font-size: 130%; ">Basic</td>
+        <td style="width: 33%; background-color: #25AAE3; color: #fff; font-size: 130%;">Basic</td>
         <td>&nbsp;</td>
-        <td style="width: 33%; background-color: #0b99d6; color: #fff; font-size: 130%; ">Pro</td>
+        <td style="width: 33%; background-color: #0b99d6; color: #fff; font-size: 130%;">Pro</td>
         <td>&nbsp;</td>
-        <td style="width: 33%; background-color: #0684BA; color: #fff; font-size: 130%; ">Premium</td>
+        <td style="width: 33%; background-color: #0684BA; color: #fff; font-size: 130%;">Premium</td>
     </tr>
     <tr>
         <td style="background-color:#f0f0f0;" rowspan="2"><span style="font-size:220%;">$19</span>/month</td>

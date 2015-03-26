@@ -222,14 +222,13 @@ module.exports = function(grunt) {
         htmllint: {
             options: {
                 ignore: [
-                    "Section lacks heading. Consider using \"h2\"-\"h6\" elements to add identifying headings to all sections.",
                     "Consider using the \"h1\" element as a top-level heading only (all \"h1\" elements are treated as top-level headings by many screen readers and other tools)."
                 ]
             },
             src: [
                 "<%= dirs.dest %>/**/*.html",
-                "!<%= dirs.dest %>/newsletters/**/*.html",  // ignore newsletters for now
-                "!<%= dirs.dest %>/testimonials/**/*.html"
+                "!<%= dirs.dest %>/testimonials/**/*.html",
+                "!<%= dirs.dest %>/updates/**/*.html"
             ]
         },
 

@@ -37,3 +37,12 @@ table tr td {
 .gist .gist-data {
     overflow: inherit;
 }
+
+
+.pricing-post-table tbody > tr > td:nth-child(even) {
+    padding: 10px;
+}
+
+.pricing-post-table tbody > tr > td:nth-child(odd) {
+    padding: 11px;
+}
