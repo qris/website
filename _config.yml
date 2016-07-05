@@ -11,15 +11,21 @@ highlighter:        rouge
 gems:
     - jekyll-feed
     - jekyll-sitemap
+    - octopress-paginate
 
 exclude:
-# we generate those files ourselves
-- "*.css"
-- "*.js"
-- "_old"
+    # we generate those files ourselves
+    - "*.css"
+    - "*.js"
+    - "_old"
 
 # permalinks
 permalink:          pretty
+
+# pagination
+pagination:
+    limit:          false
+    per_page:       5
 
 # server
 source:             src/
@@ -37,7 +43,7 @@ collections:
         permalink: /blog/:year/:month/:day/:title/
         output: true
     newsletters:
-        permalink: /:collection/:path/
+        permalink: /:collection/:year/:month/:day/:title/
         output: true
     testimonials:
         output: false
