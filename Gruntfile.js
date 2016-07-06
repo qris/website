@@ -72,7 +72,7 @@ module.exports = function(grunt) {
         uncss: {
             options: {
                 ignore: [
-                    /(#|\.)anchorjs(\-[a-zA-Z]+)?/,
+                    /(#|\.)anchors(\-[a-zA-Z]+)?/,
                     // Bootstrap selectors added via JS
                     /\w\.in/,
                     ".fade",
