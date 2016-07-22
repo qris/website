@@ -2,7 +2,7 @@
 
 ## Getting started
 
-[![Windows Build status](https://img.shields.io/appveyor/ci/FeodorFitsner/website/master.svg?label=Windows%20build)](https://ci.appveyor.com/project/FeodorFitsner/website/branch/master)
+[![Windows Build status](https://img.shields.io/appveyor/ci/AppVeyor-Website/website/staging.svg?label=Windows%20build)](https://ci.appveyor.com/project/AppVeyor-Website/website/branch/staging)
 [![devDependency Status](https://img.shields.io/david/appveyor/website.svg)](https://david-dm.org/appveyor/website)
 
 * Install [Node.js](https://nodejs.org/download/)
