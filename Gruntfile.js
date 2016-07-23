@@ -1,3 +1,5 @@
+/* jshint browser:false, node:true */
+
 "use strict";
 
 module.exports = function(grunt) {
@@ -227,7 +229,10 @@ module.exports = function(grunt) {
                 jshintrc: ".jshintrc"
             },
             files: {
-                src: "Gruntfile.js"
+                src: [
+                    "Gruntfile.js",
+                    "<%= dirs.src %>/assets/js/*.js"
+                ]
             }
         },
 
