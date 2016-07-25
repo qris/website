@@ -4,9 +4,10 @@
 (function() {
     "use strict";
 
-    var testimonialsContainer = document.getElementById("testimonials");
+    (function() {
 
-    if (testimonialsContainer) {
+        var testimonialsContainer = document.getElementById("testimonials");
+
         var testimonialImages = [
             "twitter-levgimelfarb.png",
             "twitter-menonHari.png",
@@ -16,18 +17,21 @@
             "twitter-twith2sugars.png"
         ];
 
-        var testimonialImage = testimonialImages[Math.floor(Math.random() * testimonialImages.length)];
+        if (testimonialsContainer) {
 
-        var html = "<p>" +
-                        "<img src=\"/assets/images/testimonials/" + testimonialImage + "\" alt=\"" +
-                        testimonialImage + "\">" +
-                   "</p>";
-        testimonialsContainer.innerHTML = html;
-    }
-})();
+            var testimonialImage = testimonialImages[Math.floor(Math.random() * testimonialImages.length)];
 
-(function($) {
-    "use strict";
-    $(document).foundation();
+            var html = "<p>" +
+                            "<img src=\"/assets/images/testimonials/" + testimonialImage + "\" alt=\"" +
+                            testimonialImage + "\">" +
+                       "</p>";
+            testimonialsContainer.innerHTML = html;
+        }
+    })();
+
+    (function($) {
+        $(document).foundation();
+    })(jQuery);
+
     anchors.add(".docs-content h2, .docs-content h3, .docs-content h4, .docs-content h5, .docs-content h6");
-})(jQuery);
+})();
