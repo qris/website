@@ -145,7 +145,8 @@ module.exports = function(grunt) {
             },
             images: {
                 src: [
-                    "<%= dirs.dest %>/assets/images/**/*.{jpg,jpeg,gif,png,svg}"
+                    "<%= dirs.dest %>/assets/images/**/*.{jpg,jpeg,gif,png,svg}",
+                    "!<%= dirs.dest %>/assets/images/testimonials/*.png"
                 ]
             }
         },
@@ -244,7 +245,6 @@ module.exports = function(grunt) {
             },
             src: [
                 "<%= dirs.dest %>/**/*.html",
-                "!<%= dirs.dest %>/testimonials/**/*.html",
                 "!<%= dirs.dest %>/updates/**/*.html"
             ]
         },
