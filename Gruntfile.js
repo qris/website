@@ -77,6 +77,7 @@ module.exports = function(grunt) {
                     "<%= dirs.src %>/assets/js/vendor/jquery-*.min.js",
                     "<%= dirs.src %>/assets/js/vendor/foundation/*.js",
                     "<%= dirs.src %>/assets/js/vendor/anchor.js",
+                    "<%= dirs.src %>/assets/js/google-analytics.js",
                     "<%= dirs.src %>/assets/js/main.js"
                 ],
                 dest: "<%= dirs.dest %>/assets/js/pack.js"
