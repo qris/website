@@ -87,21 +87,16 @@ module.exports = function(grunt) {
         uncss: {
             options: {
                 ignore: [
-                    /(#|\.)anchors(\-[a-zA-Z]+)?/,
-                    // Bootstrap selectors added via JS
-                    /\w\.in/,
-                    ".fade",
-                    ".collapse",
-                    ".collapsing",
                     /(#|\.)top-bar(\-[a-zA-Z]+)?/,
                     /(#|\.)topbar(\-[a-zA-Z]+)?/,
                     /(#|\.)f-topbar-fixed(\-[a-zA-Z]+)?/,
                     /(#|\.)dropdown(\-[a-zA-Z]+)?/,
-                    /(#|\.)(open)/,
-                    /meta.foundation(\-[a-zA-Z]+)?/
+                    /\.no\-js/,
+                    /meta.foundation(\-[a-zA-Z]+)?/,
+                    ".anchorjs-link",
                 ],
                 htmlroot: "<%= dirs.dest %>",
-                ignoreSheets: [/fonts.googleapis/, /gist.github/],
+                ignoreSheets: [/fonts.googleapis/],
                 stylesheets: ["/assets/css/pack.css"]
             },
             dist: {
