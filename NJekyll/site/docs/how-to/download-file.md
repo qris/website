@@ -68,7 +68,7 @@ Example usage in `appveyor.yml`:
 
 ## AppVeyor command-line utility
 
-AppVeyor command-line utility (`appveyor.exe`) which is a part of [Build Agent API](/docs/build-worker-api) provides `DownloadFile` command which behaves similar to Start-FileDownload cmdlet.
+AppVeyor command-line utility (`appveyor.exe`) which is a part of [Build Worker API](/docs/build-worker-api) provides `DownloadFile` command which behaves similar to Start-FileDownload cmdlet.
 
 Command syntax:
 
